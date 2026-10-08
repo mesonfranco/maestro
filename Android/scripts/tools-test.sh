@@ -1,1 +1,0 @@
-maestro test Android/features/tools/ --device 29211FDH2006X3 --config "Android/configs/config-order-tools-flows.yaml" --format html-detailed --output Android/reports/tools-test-report.html

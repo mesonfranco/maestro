@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Brush"
+- assertVisible:
+    text: "BRUSH"
+    index: 2
+- tapOn:
+    text: "BRUSH"
+    index: 2
+- assertVisible: "Pen"
+- assertVisible: "Pencil H"
+- assertVisible: "Airbrush"
+- tapOn: "Close"

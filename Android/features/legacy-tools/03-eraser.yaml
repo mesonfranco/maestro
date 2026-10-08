@@ -1,0 +1,11 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Eraser"
+- assertVisible: "FADE"
+- tapOn:
+    text: "BRUSH"
+    index: 2
+- assertVisible: "Eraser"
+- assertVisible: "Sketch"
+- assertVisible: "Pencil"
+- tapOn: "Close"

@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Color Fill"
+- assertVisible: "THRESHOLD"
+- tapOn: "COLOR"
+- assertVisible: "WHEEL"
+- assertVisible: "CLASSIC"
+- assertVisible: "HARMONY"
+- assertVisible: "VALUE"
+- assertVisible: "SWATCH"
+- assertVisible: "Eye dropper"
+- assertVisible: "Add preset"
+- tapOn: "Close"
