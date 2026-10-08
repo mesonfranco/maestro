@@ -1,7 +1,4 @@
 appId: com.vblast.flipaclip
 ---
-- tapOn: "Audio 1"
-- tapOn:
-    id: "icon"
-    index: 8
-- assertNotVisible: "Audio 1"
+- tapOn: "Delete"
+- assertNotVisible: "Audio 2"
