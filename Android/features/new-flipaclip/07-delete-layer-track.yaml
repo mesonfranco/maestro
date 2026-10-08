@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "icon"
+    index: 7
+- assertNotVisible: "Layer 2"

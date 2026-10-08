@@ -1,10 +1,11 @@
 appId: com.vblast.flipaclip
 ---
-- tapOn: "Layer"
 - assertVisible: "Undo"
 - assertVisible: "Redo"
 - assertVisible: "Copy"
 - assertVisible: "Paste"
 - assertVisible: "Image/Video"
-- assertVisible: "Select"
-- assertVisible: "Delete"
+- assertVisible: "Add audio"
+- tapOn: "Studio"
+- assertVisible: "Layer"
+- assertVisible: "Audio"
