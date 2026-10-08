@@ -1,0 +1,11 @@
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 00-set-layout-v2
+    - 01-create-generic-project
+    - 02-brush
+    - 03-eraser
+    - 04-lasso
+    - 05-fill
+    - 06-text
+    - 07-overflow-menu

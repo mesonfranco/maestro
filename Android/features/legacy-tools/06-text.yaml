@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Text"
+- assertVisible: "ADD"
+- tapOn: "FONT"
+- assertVisible: "Alex Brush"
+- assertVisible: "Charakterny"
+- assertVisible: "ComicNeue Bold"
+- tapOn: "Close"

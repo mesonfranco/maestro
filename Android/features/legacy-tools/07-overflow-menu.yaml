@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "More options"
+- assertVisible:
+    text: "SMUDGE"
+    index: 1
+- assertVisible:
+    text: "BLUR"
+    index: 1
