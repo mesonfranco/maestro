@@ -5,8 +5,6 @@ tags:
 ---
 - launchApp:
     clearState: true
-    permissions:
-      notifications: allow
 - extendedWaitUntil:
     visible: "Get Started"
     timeout: 10000
@@ -19,6 +17,7 @@ tags:
     end: 38%, 33%
     duration: 2000
 - tapOn: Continue
+- tapOn: "Allow"
 - extendedWaitUntil:
     visible: "Yearly"
     timeout: 5000
