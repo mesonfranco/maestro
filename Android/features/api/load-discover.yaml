@@ -7,10 +7,9 @@ tags:
 - launchApp: com.vblast.flipaclip
 - tapOn: "DISCOVER"
 - assertVisible: "New!"
-- assertVisible: "Masterclass"
+- assertVisible: "Getting Started!"
 - assertVisible: "Challenges"
 - tapOn:
-    text: "MASTERCLASS"
-    index: 1
-- assertVisible: "Episode 1: How to Create a Great story "
+    text: "Meet the new version of FlipaClip"
+- assertVisible: "NEW FEATURES"
 - tapOn: "Close"
