@@ -1,3 +1,0 @@
-appId: com.vblast.flipaclip
----
-- runFlow: "../features/deeplink/enable-new-flipaclip.yaml"

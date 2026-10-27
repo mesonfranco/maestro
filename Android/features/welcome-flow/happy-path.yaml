@@ -5,8 +5,6 @@ tags:
 ---
 - launchApp:
     clearState: true
-    permissions:
-      notifications: allow
 - extendedWaitUntil:
     visible: "Get Started"
     timeout: 10000
@@ -19,19 +17,20 @@ tags:
     end: 38%, 33%
     duration: 2000
 - tapOn: Continue
+- tapOn: "Allow"
 - extendedWaitUntil:
     visible: "Yearly"
     timeout: 5000
 - tapOn:
     id: "closeAction"
 - extendedWaitUntil:
-    visible: "What brings you to FlipaClip?"
-    timeout: 5000
+        visible: "What brings you to FlipaClip?"
+        timeout: 5000
 - tapOn: "I want to learn how to animate"
 - tapOn: "Continue"
 - extendedWaitUntil:
-    visible: "Make your first animation!"
-    timeout: 5000
+        visible: "Make your first animation!"
+        timeout: 5000
 - tapOn: "Close"
 - assertVisible:
     id: "navLogo"
@@ -40,4 +39,4 @@ tags:
 - assertVisible: "HOME"
 - assertVisible: "DISCOVER"
 - assertVisible: "WATCH"
-- assertVisible: "SEARCH"
+- assertVisible: "SEARCH"  

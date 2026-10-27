@@ -9,6 +9,7 @@ env:
             start: "50%,80%"
             end: "50%,20%"
       - tapOn: "Add frame"
+
 - tapOn: "Make Movie"
 - tapOn: "Name your movie"
 - eraseText
