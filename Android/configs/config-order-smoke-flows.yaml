@@ -2,21 +2,20 @@ executionOrder:
   continueOnFailure: true
   flowsOrder:
     - 00-welcome-flow
-    - 01-enable-new-flipaclip
-    - 02-disable-splash
-    - 03-create-project-layout-1
-    - 04-make-movie-layout-1
-    - 05-create-project-layout-2
-    - 06-make-movie-layout-2
-    - 07-create-project-layout-3
-    - 08-make-movie-layout-3
-    - 09-load-discover
-    - 10-load-audio-library
-    - 11-load-actors
-    - 12-delete-movie
-    - 13-load-paywall
-    - 14-load-ad
-    - 15-edit-project
-    - 16-login-flipaclip-account
-    - 17-logout-flipaclip-account
-    - 18-search-project
+    - 01-disable-splash
+    - 02-create-project-layout-1
+    - 03-make-movie-layout-1
+    - 04-create-project-layout-2
+    - 05-make-movie-layout-2
+    - 06-create-project-layout-3
+    - 07-make-movie-layout-3
+    - 08-load-discover
+    - 09-load-audio-library
+    - 10-load-actors
+    - 11-delete-movie
+    - 12-load-paywall
+    - 13-load-ad
+    - 14-edit-project
+    - 15-login-flipaclip-account
+    - 16-logout-flipaclip-account
+    - 17-search-project
