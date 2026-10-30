@@ -5,6 +5,9 @@ env:
 - repeat:
     times: 11
     commands:
+        - swipe:
+            start: "50%,80%"
+            end: "50%,20%"
         - tapOn:
             id: "ic_stage_add_frame"
 - tapOn: "ic stage share"

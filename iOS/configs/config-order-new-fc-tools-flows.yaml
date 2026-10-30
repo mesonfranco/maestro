@@ -1,0 +1,10 @@
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 00-create-project
+    - 01-brush
+    - 02-eraser
+    - 03-lasso
+    - 04-fill-tool
+    - 05-text
+    - 06-overflow-menu

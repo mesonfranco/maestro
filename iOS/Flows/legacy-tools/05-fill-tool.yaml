@@ -1,0 +1,17 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_tool_colorfill_legacy"
+- assertVisible: "THRESH"
+- assertVisible: "COLOR"
+- tapOn: "COLOR"
+- assertVisible: "ic eyedropper"
+- assertVisible: "ic add circle"
+- assertVisible: "Basic"
+- assertVisible: "ic add 18pt"
+- assertVisible: "WHEEL"
+- assertVisible: "CLASSIC"
+- assertVisible: "HARMONY"
+- assertVisible: "VALUE"
+- assertVisible: "SWATCH"
+- tapOn: "ic close"

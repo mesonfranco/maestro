@@ -19,3 +19,4 @@ executionOrder:
     - 15-login-flipaclip-account
     - 16-logout-flipaclip-account
     - 17-search-project
+    - 18-migrate-project

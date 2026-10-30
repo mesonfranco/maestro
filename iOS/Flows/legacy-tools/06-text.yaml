@@ -1,0 +1,14 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_tool_text_legacy"
+- assertVisible: "ADD"
+- assertVisible: "FONT"
+- assertVisible: "SIZE"
+- assertVisible: "COLOR"
+- tapOn: "FONT"
+- assertVisible: "AlexBrush-Regular"
+- assertVisible: "BoomBox"
+- assertVisible: "ClearSans-Bold"
+- assertVisible: "ClearSans"
+- tapOn: "ic close"
