@@ -1,0 +1,6 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_overflow_horizontal_legacy"
+- assertVisible: "SMUDGE"
+- assertVisible: "BLUR"

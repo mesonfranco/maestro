@@ -1,3 +1,0 @@
-appId: com.vblast.flipaclip
----
-- runFlow: "../features/api/load-discover.yaml"

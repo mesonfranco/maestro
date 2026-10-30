@@ -5,14 +5,13 @@ tags:
 ---
 - launchApp:
     clearState: true
-    permissions:
-      notifications: allow
 - tapOn: Get Started
 - swipe:
     start: 20%, 50%
     end: 80%, 80%
     duration: 70
 - tapOn: Continue
+- tapOn: "Allow"
 - tapOn:
     id: closeAction
 - tapOn: "Skip"

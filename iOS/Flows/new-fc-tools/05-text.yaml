@@ -1,0 +1,14 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_drawtool_text"
+- assertVisible: "Add"
+- assertVisible: "Font"
+- assertVisible: "Size"
+- assertVisible: "Color"
+- tapOn: "Font"
+- assertVisible: "AlexBrush-Regular"
+- assertVisible: "BoomBox"
+- assertVisible: "ClearSans-Bold"
+- assertVisible: "ComicNeue-Bold"
+- tapOn: "ic close"

@@ -1,0 +1,10 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_overflow_horizontal"
+- assertVisible: "Smudge"
+- assertVisible: "Blur"
+- tapOn:
+    point: 0%,13%
+- assertNotVisible: "Smudge"
+- assertNotVisible: :"Blur"

@@ -1,0 +1,11 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "Settings"
+- tapOn: "App Settings"
+- tapOn: "New FlipaClip"
+- tapOn: "On"
+- tapOn: "Switch back"
+- tapOn: "ic back"
+- tapOn: "ic back"
+- tapOn: "ic back"

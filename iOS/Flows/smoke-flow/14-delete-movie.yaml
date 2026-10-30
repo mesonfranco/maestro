@@ -1,0 +1,3 @@
+appId: com.vblast.flipaclip
+---
+- runFlow: "../../features/movie/delete-movie.yaml"

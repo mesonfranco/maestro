@@ -1,0 +1,14 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_tool_eraser_legacy"
+- assertVisible: "BRUSH"
+- assertVisible: "SIZE"
+- assertVisible: "FADE"
+- assertVisible: "ALPHA"
+- assertVisible: "RULER"
+- tapOn: "BRUSH"
+- assertVisible: "Eraser"
+- assertVisible: "Sketch"
+- assertVisible: "Crayon"
+- tapOn: "ic close"

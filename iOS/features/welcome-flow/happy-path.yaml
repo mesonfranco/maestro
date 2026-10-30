@@ -6,12 +6,6 @@ permission:
     permissions: 
         notifications: allow
     clearState: true
-##- extendedWaitUntil:
-    ##visible: "Get Started"
-    ##timeout: 5000
-- extendedWaitUntil:
-    visible: "Get Started"
-    timeout: 10000
 - tapOn: "Get Started"
 - extendedWaitUntil:
     visible: "What's your age?"
@@ -30,7 +24,7 @@ permission:
     visible: "Yearly"
     timeout: 10000
 - tapOn:
-    point: "15, 60"
+    point: "15, 70"
 - extendedWaitUntil:
     visible: "What brings you to FlipaClip?"
     timeout: 10000

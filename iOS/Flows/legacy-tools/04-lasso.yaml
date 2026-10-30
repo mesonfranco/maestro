@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+- tapOn:
+    id: "ic_tool_lasso_legacy"
+- assertNotVisible: "Brush"
+- assertNotVisible: "Size"
+- assertNotVisible: "Fade"
+- assertNotVisible: "Alpha"
+- assertNotVisible: "Ruler"

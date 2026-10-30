@@ -1,3 +1,0 @@
-appId: com.vblast.flipaclip
----
-- runFlow: "../features/project/migrate-project-to-studio.yaml"

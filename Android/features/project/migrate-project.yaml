@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "My Project Layout 2"
+- tapOn: "OPEN A COPY"
+- assertVisible: "Brush"
+- assertVisible:
+    text: "Studio"
+    index: 1

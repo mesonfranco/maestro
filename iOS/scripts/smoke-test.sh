@@ -23,6 +23,6 @@ echo "🚀 Iniciando la suite de pruebas en el dispositivo: $DEVICE_ID"
 maestro --device "$DEVICE_ID" test --config "iOS/configs/config-order-smoke-flows.yaml" \
   --format html-detailed \
   --output "iOS/reports/smoke-test.html"  \
-  iOS/smoke-flows/
+  iOS/Flows/smoke-flow/
 
 echo "📊 ¡Pruebas terminadas! Abriendo el último reporte..."
