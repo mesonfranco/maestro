@@ -1,3 +1,3 @@
 appId: com.vblast.flipaclip
 ---
-- runFlow: "../features/account/logout-flipaclip-account.yaml"
+- runFlow: "../../features/account/logout-flipaclip-account.yaml"
