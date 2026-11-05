@@ -20,7 +20,7 @@ echo "🚀 Iniciando la suite de pruebas en el dispositivo: $DEVICE_ID"
 # 📊 EJECUCIÓN DETALLADA:
 # Apuntamos a la CARPETA 'iOS/smoke' (sin el archivo .yaml al final) para que tome todos los tests por separado.
 # Guardamos el reporte incluyendo la fecha en el nombre para tener un histórico.
-maestro --device "$DEVICE_ID" test --config "iOS/configs/config-order-new-fc-tools-flows.yaml.yaml" \
+maestro --device "$DEVICE_ID" test --config "iOS/configs/config-order-new-fc-tools-flows.yaml" \
   --format html-detailed \
   --output "iOS/reports/new-fc-tools-test.html"  \
   iOS/Flows/new-fc-tools/
