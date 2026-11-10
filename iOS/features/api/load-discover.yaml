@@ -3,6 +3,8 @@ appId: com.vblast.flipaclip
 - launchApp: com.vblast.flipaclip
 - tapOn: "DISCOVER"
 - assertVisible: "New!"
-- assertVisible: "Masterclass"
-- tapOn: "Episode 1: How to Create a Great story "
-- assertVisible: "Episode 1: How to Create a Great story "
+- assertVisible: "Getting Started!"
+- tapOn: "Meet the new version of FlipaClip"
+- extendedWaitUntil:
+    visible: "Meet the new version of FlipaClip"
+    timeout: 10000

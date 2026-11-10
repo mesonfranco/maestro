@@ -1,4 +1,4 @@
 appId: com.vblast.flipaclip
 ---
-- runFlow: "../features/settings/layout-v3.yaml"
-- runFlow: "../features/project/create-project-layout-3.yaml"
+- runFlow: "../../features/settings/layout-v3.yaml"
+- runFlow: "../../features/project/create-project-layout-3.yaml"

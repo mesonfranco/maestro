@@ -1,3 +1,3 @@
 appId: com.vblast.flipaclip
 ---
-- runFlow: "../features/project/search-project.yaml"
+- runFlow: "../../features/project/search-project.yaml"

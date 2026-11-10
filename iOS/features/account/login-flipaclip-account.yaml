@@ -19,7 +19,7 @@ env:
 - assertVisible: "FlipaClip Contest"
 - extendedWaitUntil:
     visible: "Profile"
-    timeout: 5000
+    timeout: 1000
 - tapOn: "Profile"
 - extendedWaitUntil:
     visible: "First name"
