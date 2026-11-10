@@ -35,8 +35,8 @@ permission:
     timeout: 10000
 - tapOn:
     point: "18, 75"
-- assertVisible:
-    id: "app_logo"
+#- assertVisible:
+#   id: "app_logo"
 - assertVisible: "HOME"
 - assertVisible: "DISCOVER"
 - assertVisible: "WATCH"

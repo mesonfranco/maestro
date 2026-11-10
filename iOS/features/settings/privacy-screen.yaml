@@ -1,0 +1,13 @@
+appId: com.vblast.flipaclip
+---
+- launchApp: com.vblast.flipaclip
+- tapOn: "Settings"
+- tapOn: "Accounts"
+- scroll
+- tapOn: "Manage Consent Preferences"
+- assertVisible: "Privacy Preference Center"
+- assertVisible: "Allow All"
+- assertVisible: "Personalized Ads and Ad Measurement"
+- assertVisible: "Confirm My Choices"
+- assertVisible: "ic close"
+- tapOn: "ic close"

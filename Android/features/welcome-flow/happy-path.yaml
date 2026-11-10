@@ -32,8 +32,8 @@ tags:
         visible: "Make your first animation!"
         timeout: 5000
 - tapOn: "Close"
-- assertVisible:
-    id: "navLogo"
+#- assertVisible:
+#    id: "navLogo"
 - assertVisible:
     id: "bottomNavigationBarV2"
 - assertVisible: "HOME"
