@@ -1,0 +1,19 @@
+appId: com.vblast.flipaclip
+env:
+    TEXT: "This is a text added"
+---
+# Insert and move text
+- tapOn: "Text"
+- tapOn:
+    point: 50%,50%
+- tapOn: "Type what you want to insert"
+- inputText: ${TEXT}
+- tapOn: "INSERT"
+- takeScreenshot: "../../drawtools/06-text.png"
+- swipe:
+    start: "40%,50%"
+    end: "40%,70%"
+    duration: 400
+- tapOn:
+    point: 50%,50%
+- assertVisible: "Add audio"

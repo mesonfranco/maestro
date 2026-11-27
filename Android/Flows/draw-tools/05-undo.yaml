@@ -1,0 +1,8 @@
+appId: com.example.app
+---
+# Undo the erase
+- repeat:
+    times: 4
+    commands:
+    - tapOn: "Undo"
+    - assertVisible: "Eraser stroke undone"

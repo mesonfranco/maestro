@@ -23,12 +23,16 @@ env:
 - tapOn: "Back"
 - tapOn:
     id: "actionFps"
+- scroll
 - swipe:
     from: 12
     direction: UP
-    duration: 400
-- tapOn: "24"
+    duration: 1000
+- swipe:
+    from: 23
+    direction: UP
+- tapOn: "30"
 - tapOn: "Back"
 - tapOn: "SAVE CHANGES"
 - assertVisible: "Project edited"
-- assertVisible: "24 fps"
+- assertVisible: "30 fps"

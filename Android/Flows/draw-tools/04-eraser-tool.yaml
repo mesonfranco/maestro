@@ -1,0 +1,20 @@
+appId: com.vblast.flipaclip
+---
+# Erase 4 lines
+- tapOn: "Eraser"
+- swipe:
+    start: 9%,40%
+    end: 100%,40%
+    duration: 500
+- swipe:
+    start: 80%,80%
+    end: 80%,20%
+    duration: 400
+- swipe:
+    start: 9%,80%
+    end: 100%,80%
+    duration: 500
+- swipe:
+    start: 9%, 80%
+    end: 9%,20%
+    duration: 400
