@@ -1,0 +1,5 @@
+appId: com.vblast.flipaclip
+---
+- tapOn: "Color Fill"
+- tapOn:
+    point: 50%,50%

@@ -1,0 +1,10 @@
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 01-create-project
+    - 02-brush-tool
+    - 03-fill-tool
+    - 04-eraser-tool
+    - 05-undo
+    - 06-lasso-tool-delete
+    - 07-text-tool

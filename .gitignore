@@ -2,6 +2,7 @@
 Android/configs/.yaml
 Android/reports/
 Android/scripts/
+Android/drawtools
 iOS/config.yaml
 iOS/reports/
 scope-prod-test.md

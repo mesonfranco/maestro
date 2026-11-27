@@ -7,7 +7,7 @@ appId: com.vblast.flipaclip
 - tapOn: "Manage Consent Preferences"
 - assertVisible: "Privacy Preference Center"
 - assertVisible: "Allow All"
-- assertVisible: "Personalized Ads and Ad Measurement"
+- assertVisible: " Manage Consent Preferences"
 - assertVisible: "Confirm My Choices"
 - assertVisible: "ic close"
 - tapOn: "ic close"

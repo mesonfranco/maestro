@@ -1,0 +1,9 @@
+appId: com.vblast.flipaclip
+---
+# Select and delete with lasso tool
+- tapOn: "Lasso"
+- tapOn:
+    text: "Lasso"
+    repeat: 4
+    delay: 100
+- tapOn: "Delete"
